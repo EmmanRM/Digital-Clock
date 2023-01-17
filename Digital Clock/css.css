@@ -15,8 +15,7 @@ body{
 .clock{
     position: relative;
     display: flex;
-
-
+    flex-wrap: wrap;
 }
  h1{
     letter-spacing: 4px;
