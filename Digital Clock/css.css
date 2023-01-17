@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background: url(bg.jpg) no-repeat center/cover;
+    flex-direction: column;
+}
+.clock{
+    position: relative;
+    display: flex;
+
+
+}
+ h1{
+    letter-spacing: 4px;
+    font-size: 50px;
+    color: white
+}
+.clock span{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    background-color: #0d303a;
+    color: white;
+    opacity: .8;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+
+}
+.clock .text{
+    height: 50px;
+    display: flex;
+    opacity: 1;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.clock .colon{
+    width: 2px;
+}
